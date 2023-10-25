@@ -1,5 +1,5 @@
 import tkinter as tk
-from owanova import Anova
+from Classes.owanova import Anova
 
 entries = []
 lsd = 0

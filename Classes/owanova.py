@@ -68,13 +68,13 @@ class Anova:
         msRes = ms/f_ratio
         #lsd
         lsd = ((math.sqrt(2))/2)*t_table*(math.sqrt((msRes/sN)))
-
-        return lsd, f_ratio, f_table, liste
         
         for i in range(len(liste)):
             print("Interval group: " + str(i+1))
             print(liste[i]+lsd)
             print(liste[i]-lsd)
+        
+        return lsd, f_ratio, f_table, liste
 
 
 
