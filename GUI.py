@@ -27,7 +27,7 @@ def calc():
                 return lsd,f_ratio,f_table, liste
 
     except Exception as e:
-        print(str(e) + "lol")
+        print(str(e))
 
 def create_entry():
     entry = tk.Entry(root)
